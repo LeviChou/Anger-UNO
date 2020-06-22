@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     private bool ableAttack;
     private bool JustAttack;
     private bool HasBeenPunished = false;
-    public int Energy = 0;
+    private int Energy = 0;
 
     // Start is called before the first frame update
     void Start()
